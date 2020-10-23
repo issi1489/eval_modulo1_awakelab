@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>Awakelab Full Stack Python</title>
+
+    <title>Medical Services App.</title>
     <meta charset="utf-8">
     <meta name="viewport" 
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,10 +16,11 @@
         rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/med_style.css">
   </head>
+
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">Awakelab</a>
+      <a class="navbar-brand" href="#">Medical Services App.</a>
 
       <!-- Navigation Bar Hamburger-->
       <button
@@ -32,278 +34,152 @@
           <span class="navbar-toggler-icon"></span>
       </button>
       <!-- End Navigation Bar Hamburger -->
+
       <!-- Navigation Links -->
       <div class="collapse navbar-collapse" id="navigation">
          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a
                 class="nav-link scroll-trigger" 
-                href="#principal">
-                  Grupo Python
+                href="#compromiso">
+                  Nuestro compromiso
               </a>
             </li>
             <li class="nav-item">
               <a 
                 class="nav-link scroll-trigger" 
-                href="#competencias">
-                  Competencias
+                href="#noticias">
+                  Noticias
               </a>
             </li>
             <li class="nav-item">
               <a 
                 class="nav-link scroll-trigger" 
-                href="#equipo">
-                  Equipo
+                href="#proveedores">
+                  Proveedores
               </a>
             </li>
-            <li class="nav-item">
-              <a 
-                class="nav-link scroll-trigger" 
-                href="#enlaces"> 
-                  Enlaces
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link scroll-trigger" 
-                href="#contacto">
-                  Contacto
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                  href="#"
-                  class="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false">
-                      Perfil <span class="caret"></span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right">
-                  <a 
-                    class="dropdown-item scroll-trigger"
-                    href="#"
-                    data-toggle="modal"
-                    data-target="#profile-modal">
-                      Perfil
-                  </a>
-                  <a class="dropdown-item scroll-trigger"
-                    data-toggle="modal"
-                    data-target="#settings-modal">
-                        Configuración
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item scroll-trigger" href="">
-                      Logout
-                  </a>
-              </div>
-            </li>
+
+            
          </ul>
-         <form class="form-inline my-2 my-lg-0">
-           <input class="form-control mr-sm-2" 
-              type="text"
-              placeholder="Search" 
-              aria-label="Search">
-           <button class="btn btn-outline-success border-dark 
-                    font-weight-bold text-white my-2 my-sm-0"
-                    type="submit">Search</button>
-         </form>
+         <!--LOGIN-->
+         <form class="form-inline">
+            <div class="col-sm-12 col-md-6">
+                <button type="button" class="btn btn-dark btn-sm" style="padding: 1px;"><a class="nav-link userlink" href="principal.html">Login</a></button>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <button type="button" class="btn btn-dark btn-sm" style="padding: 1px;"><a class="nav-link userlink" href="principal.html">Registro</a></button>
+            </div>
+          </form>
+          <!--FIN LOGIN-->
       </div>
       <!-- Navigation Links -->
     </nav>
     <!-- End Navigation Bar -->
 
-    <!-- Section: Principal -->
-    <div class="container-fluid bg-principal" id="principal">
+    <!-- Section: COMPROMISO -->
+    <div class="container-fluid bg-principal" id="compromiso">
       <div class="row">
         <div class="col-sm-12">
           <div class="jumbotron jumbotron-main">
-            <h2>Grupo Full Stack Python</h2>
-            <h3>Awakelab</h3>
+            <h2>Medical Services App.</h2>
+            <h3>Nuestro compromiso es dar un servicio oportuno y eficiente a todos los pacientes que son parte de nuestra red.
+               Siendo este nuestro objetivo, día a día trabajamos en la mejora continua y promovemos iniciativas que mejoren
+               el bienestar de pacientes y del personal médico.  </h3>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Section: Principal -->
-
-    <!-- Section: Competencias -->
-    <div class="container-fluid bg-dark" id="competencias">
+    <!-- End Section: COMPROMISO -->
+    
+    <!-- Section: NOTICIAS -->
+    <div class="container-fluid bg-dark" id="noticias">
       <div class="row">
-        <h3>Nuestras Competencias</h3>
+        <h3>Noticias</h3>
       </div>
       <div class="row">
         <div class="col-md-6 col-lg-3">
           <div class="card">
-            <h3 class="card-header">Competencia 1</h3>
+            <h3 class="card-header"><img src="../webSalud/img/icono_saludable.png" width="15%">Vida Saludable</h3>
             <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                  grupo Full Stack Python de Awakelab.</p>
+              <h4 class="card-title">Pilates para 'runners': técnica y beneficios</h4>
+              <p class="card-text">Es un entenamiento complementario que mejora el rendimiento, trabaja la flexibilidad y evita lesiones.</p>
               <a href="#!" class="btn btn-dark">Ver mas</a>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card">
-            <h3 class="card-header">Competencia 2</h3>
+            <h3 class="card-header"><img src="../webSalud/img/icono_virus.png" width="15%">COVID-19</h3>
             <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
+              <h4 class="card-title">Preparación para la futura vacuna de COVID-19</h4>
+              <p class="card-text">UNICEF tendrá almacenadas más de 500 millones de jeringas para finales de año. </p>
               <a href="#!" class="btn btn-dark">Ver mas</a>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card">
-            <h3 class="card-header">Competencia 3</h3>
+            <h3 class="card-header"><img src="../webSalud/img/icono_corazon.png" width="15%">Cuidando tu familia</h3>
             <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
+              <h4 class="card-title">Trastorno por déficit de atención</h4>
+              <p class="card-text">¿Realidad o ficción?Muchos padres se encuentran ante un posible diagnóstico de TDAH con los miedos y dudas que ello implica</p>
               <a href="#!" class="btn btn-dark">Ver mas</a>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card">
-            <h3 class="card-header">Competencia 4</h3>
+            <h3 class="card-header"><img src="../webSalud/img/icono_paciente_medico.png" width="15%">Paciente+Médico</h3>
             <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
+              <h4 class="card-title">Cómo mejorar la relación médico-paciente</h4>
+              <p class="card-text">Investigadores han estudiando durante más de 2 años cómo solucionar este distanciamiento.</p>
               <a href="#!" class="btn btn-dark">Ver mas</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <h3 class="card-header">Competencia 5</h3>
-            <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <h3 class="card-header">Competencia 6</h3>
-            <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <h3 class="card-header">Competencia 7</h3>
-            <div class="card-body">
-              <h4 class="card-title">Subtítitulo competencia</h4>
-              <p class="card-text">Descripción de la competencia del 
-                grupo Full Stack Python de Awakelab.</p>
-              <a href="#!" class="btn btn-dark">Ver mas</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
-    <!-- End Section: Competencias -->
+    <!-- End Section: NOTICIAS -->
 
-    <!-- Section: Equipo -->
-    <div class="container-fluid bg-light" id="equipo">
-      <div class="row">
-        <h3>Nuestro Equipo</h3>
-      </div>
-      <div class="row">
-        <div id="team-carousel" 
-            class="carousel slide" 
-            data-ride="carousel" 
-            data-interval="3000">
-          <div class="carousel-inner" style="padding: 4rem;" role="listbox">
-            <div style="height: 400px" class="carousel-item active">
-              <img class="d-block img-fluid carousel-img" src="img/group1.jpg">
-              <div class="carousel-caption">
-                Grupo Front End
-              </div>
-            </div>
-            <div style="height: 400px" class="carousel-item">
-              <img class="d-block img-fluid carousel-img" src="img/group2.jpg">
-              <div class="carousel-caption">
-                Grupo Back End
-              </div>
-            </div>
-            <div style="height: 400px" class="carousel-item">
-              <img class="d-block img-fluid carousel-img" src="img/group3.jpg">
-              <div class="carousel-caption">
-                Grupo DevOps
-              </div>
-            </div>
-          </div>
-          <a class="left carousel-control" 
-              href="#team-carousel" 
-              role="button" 
-              data-slide="prev">
-            <span class="icon-prev" aria-hidden="true"></span>
-          </a>
-          <a class="right carousel-control" 
-              href="#team-carousel" 
-              role="button" 
-              data-slide="next">
-            <span class="icon-next" aria-hidden="true"></span>
-          </a>
-          <ol class="carousel-indicators">
-            <li data-target="#team-carousel" 
-                data-slide-to="0" 
-                class="active"></li>
-            <li data-target="#team-carousel" 
-                data-slide-to="1"></li>
-            <li data-target="#team-carousel" 
-                data-slide-to="2"></li>
-          </ol>
-        </div>
-      </div>
-    </div>
-    <!-- End Section: Equipo -->
+    <!-- Section: PROVEEDORES -->
 
-    <!-- Section: Enlaces -->
-    <div class="container-fluid bg-dark" id="enlaces">
+    <div class="container-fluid bg-light" id="proveedores">
       <div class="row">
-          <h3>Enlaces de Interés</h3>
+          <h3>Proveedores de Salud</h3>
       </div>
       <div class="row">
+        <!--Centros de Salud-->
         <div class="col-md-6">
           <div class="media">
-            <img class="d-flex mr-3" src="img/flag-64.png" 
-                alt="Generic placeholder image">
+            <img class="d-flex mr-3" src="img/icono_gota2.png" 
+                alt="Generic placeholder image" width="15%">
             <div class="media-body">
-              <h5 class="mt-0">Enlaces Tipo 1</h5>
+              <h5 class="mt-0">Clínicas y Hospitales</h5>
               <ul>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
+                <li>Red de Salud UC CHRISTUS<a href="https://www.ucchristus.cl/">Visitar</a></li>
+                <li>Clínica Santa María<a href="https://www.clinicasantamaria.cl/">Visitar</a></li>
+                <li>Clínica Alemana<a href="https://www.clinicaalemana.cl/">Visitar</a></li>
+                <li>Hospital Barros Luco-Trudeau<a href="http://www.hospitalbarrosluco.cl/">Visitar</a></li>
+                <li> Hospital Clínico Universidad de Chile<a href="https://www.redclinica.cl/">Visitar</a></li>
+                <li>Dr. Felix Bulnes <a href="https://felixbulnes.cl/">Visitar</a></li>
               </ul>
             </div>
           </div>
         </div>
+        <!--ISAPRE FONASA-->
         <div class="col-md-6">
           <div class="media">
-            <img class="d-flex mr-3" src="img/world-64.png" 
-                alt="Generic placeholder image">
+            <img class="d-flex mr-3" src="img/icono_medicina2.png" 
+                alt="Generic placeholder image" width="15%">
             <div class="media-body">
-              <h5 class="mt-0">Enlaces Tipo 2</h5>
+              <h5 class="mt-0">Isapre y Fonasa</h5>
               <ul>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
+                <li>Fonasa<a href="https://www.fonasa.cl/sites/fonasa/inicio">Visitar</a></li>
+                <li>Isapre CruzBlanca<a href="https://www.cruzblanca.cl/">Visitar</a></li>
+                <li>Colmena<a href="http://www.colmena.cl/">Visitar</a></li>
+                <li>Consalud<a href="https://www.consalud.cl/">Visitar</a></li>
               </ul>
             </div>
           </div>
@@ -312,121 +188,40 @@
       <div class="row">
         <div class="col-md-6">
           <div class="media">
-            <img class="d-flex mr-3" src="img/screen-64.png" 
-                alt="Generic placeholder image">
+            <img class="d-flex mr-3" src="img/icono_sos2.png" 
+                alt="Generic placeholder image" width="15%">
             <div class="media-body">
-              <h5 class="mt-0">Enlaces Tipo 3</h5>
+              <h5 class="mt-0">Servicio ambulancia SOS</h5>
               <ul>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
+                <li>Rescare <a href="https://rescare.cl/">Visitar</a></li>
+                <li>Help <a href="https://www.rescate-help.cl/">Visitar</a></li>
+                <li>ACR<a href="http://www.ambulanciascodigorojo.cl/">Visitar</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="media">
-            <img class="d-flex mr-3" src="img/gear-64.png" 
-                alt="Generic placeholder image">
+            <img class="d-flex mr-3" src="img/icono_network2.png" 
+                alt="Generic placeholder image " width="15%">
             <div class="media-body">
-              <h5 class="mt-0">Enlaces Tipo 4</h5>
+              <h5 class="mt-0">Médicos inscritos</h5>
               <ul>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-                <li>Enlace de interés del grupo <a href="#">Ver más</a></li>
-              </ul>
+                <li>Dr Héctor Vera Salas <a href="https://www.topdoctors.cl/santiago-comuna/">Visitar</a></li>
+                <li>Dr Aquiles Jara <a href="https://www.topdoctors.cl/santiago-comuna/">Visitar</a></li>
+                <li>Víctor Hugo Donoso Olivares<a href="https://www.topdoctors.cl/santiago-comuna/">Visitar</a></li>
+                </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Section: Enlaces -->
-
-    <!-- Section: Contacto -->
-    <div class="container-fluid bg-light" id="contacto">
-      <div class="row">
-        <h2>Contáctanos</h2>
-      </div>
-      <div class="row justify-content-center align-items-center h-100">
-        <div class="col-sm-6" id="contact-form">
-          <form>
-            <div class="form-group">
-              <label for="contact-name">Nombre</label>
-              <input type="text" class="form-control" id="contact-name" 
-                  placeholder="Tu Nombre">
-            </div>
-            <div class="form-group">
-              <label for="contact-email">Email</label>
-              <input type="email" class="form-control" id="contact-email" 
-                  placeholder="Tu Email">
-            </div>
-            <div class="form-group">
-              <label for="contact-msg">Email</label>
-              <textarea class="form-control" id="contact-msg" 
-                  placeholder="Tu Mensaje" rows="4"></textarea>
-            </div>
-            <div class="btn-group">
-              <button type="button" class="btn btn-outline-secondary">Enviar</button>
-              <button type="button" class="btn btn-outline-secondary">Limpiar</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    <!-- End Section: Contacto -->
+    <!-- End Section: PROVEEDORES -->
 
     <footer class="footer bg-dark text-center">
-      <p class="text-muted">&copy; 2020 Awakelab.</p>
-      <p class="text-muted">Grupo Full Stack Python</p>
+      <p class="text-muted">Lepin&Reyes; 2020 .</p>
+      <p class="text-muted">Grupo 5 - Full Stack Python</p>
     </footer>
-
-    <!-- MODAL FORMS -->
-    <div class="modal" id="profile-modal" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"
-              aria-label="Close"><span aria-hidden="true">&times;</span>
-            </button>
-            <p class="modal-title" id="profile-modal-label">Perfil</p>
-          </div>
-            <div class="modal-body">
-              Perfil
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-success">Guardar</button>
-              <button type="button" 
-                  class="btn btn-secondary" 
-                  data-dismiss="modal">Cancelar</button>
-            </div>
-        </div>
-     </div>
-    </div>
-    <div class="modal" id="settings-modal" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" 
-              aria-label="Close"><span aria-hidden="true">&times;</span>
-            </button>
-            <p class="modal-title" id="settings-modal-label">Configuración</p>
-          </div>
-          <div class="modal-body">
-            Configuración
-          </div>
-          <div class="modal-footer">
-            <button type="button" 
-                class="btn btn-success">Guardar</button>
-            <button type="button" 
-                class="btn btn-secondary" 
-                data-dismiss="modal">Cancelar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- END MODAL FORMS -->
 
     <!-- jQuery, Popper.js, Bootstrap JS -->
     <script 
